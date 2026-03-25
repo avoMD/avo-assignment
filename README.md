@@ -1,4 +1,4 @@
-# Senior Engineer Take-Home Challenge
+# Avo Engineering Assignment
 
 ## Glossary
 
@@ -13,7 +13,7 @@ Example: `"Summarize the following patient information in 3 bullet points: {pati
 
 We build AI-powered clinical tools. Our backend makes OpenAI API calls in several places — document summarization, checklist generation, note writing, and more.
 
-Right now, every prompt lives directly in the code. Take a look at `summarize/service.py`:
+Here's one example of how a prompt currently lives in the codebase — this is just a subset of the full system:
 
 ```python
 SUMMARIZE_PROMPT = """You are a medical documentation assistant.
@@ -31,54 +31,25 @@ def summarize(patient_info: str) -> str:
     return response.choices[0].message.content
 ```
 
-We have about a dozen prompts like this across the codebase.
+We have about a dozen prompts like this across the codebase, each serving a different purpose:
 
-**The problem:** When a prompt produces poor output, we edit the string, open a PR, wait for review, and deploy. The feedback loop is slow. Sometimes we deploy a "fix" that makes things worse, and rolling back means another deployment.
-
----
-
-## What We'd Like You to Do
-
-We want to move prompts out of the code. That's the direction — how you get there is up to you.
-
-**Before writing any code, define the problem.** What specifically needs to be solved? What doesn't? What assumptions are you making?
-
-Then build a thin working slice that proves your approach.
+- Summarizing patient information
+- Generating clinical checklists
+- Writing discharge notes
+- Extracting key findings from lab results
+- Drafting referral letters
+- …and more
 
 ---
 
-## Getting Started
+## The Problem
 
-```bash
-cp .env.example .env
-# Add your OPENAI_API_KEY to .env
+Our clinical content team writes and refines prompts — but they are not engineers.
 
-docker compose up --build
-```
-
-Run tests:
-```bash
-docker compose exec web python manage.py test
-```
+Right now, every time they want to improve a prompt, test a new version, or roll back a change that made output worse, they have to ask an engineer to edit the code and deploy. This creates a bottleneck: the feedback loop is slow, experimentation is risky, and the team that best understands the clinical content has no direct control over it.
 
 ---
 
-## Deliverables
+## What to Do
 
-See [SUBMISSION.md](SUBMISSION.md) for details.
-
----
-
-## Time Box
-
-**2 hours.** We mean it — we're evaluating judgment, not completeness.
-
-Partial is fine if you explain what's missing and why.
-
----
-
-## Notes
-
-- No right answer. We're interested in how you think.
-- You are expected to use AI tools (Cursor, Claude, etc.). Document how.
-- We'll walk through your submission together in a 30–40 min follow-up call.
+See [SUBMISSION.md](SUBMISSION.md) for requirements and how to submit.
