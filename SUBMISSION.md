@@ -45,8 +45,10 @@ We'll provide an OpenAI API key for the GPT calls.
 ## 5. How to Submit
 
 1. Create a **private** GitHub repository
-2. Invite `yhju@avomd.io` as a collaborator (Settings → Collaborators → Add people)
-3. Reply with the repository link
+2. Complete the assignment (all items above)
+3. Once your work is **fully done**, invite `yhju@avomd.io` as a collaborator (Settings → Collaborators → Add people)
+
+> **Note:** Please invite the collaborator only after your submission is complete. The invitation itself signals that your work is ready for review.
 
 Make sure `.env` is in `.gitignore` and your OpenAI API key is not committed.
 
@@ -55,4 +57,4 @@ Make sure `.env` is in `.gitignore` and your OpenAI API key is not committed.
 ## Notes
 
 - No right answer. We're interested in how you think.
-- We'll walk through your submission together in a 30–40 min follow-up call.
+- We'll walk through your submission together in a 30-40 min follow-up call.
