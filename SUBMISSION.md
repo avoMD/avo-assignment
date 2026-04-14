@@ -44,11 +44,10 @@ We'll provide an OpenAI API key for the GPT calls.
 
 ## 5. How to Submit
 
-1. Create a **private** GitHub repository
-2. Complete the assignment (all items above)
-3. Once your work is **fully done**, invite `yhju@avomd.io` as a collaborator (Settings → Collaborators → Add people)
-
-> **Note:** Please invite the collaborator only after your submission is complete. The invitation itself signals that your work is ready for review.
+1. Complete the assignment in this repository (all items above)                                                                                          
+2. Push your work to the `main` branch                 
+3. Once your work is **fully done**, let us know via email                                                                                               
+> **Note:** This repository was created through GitHub Classroom and is already accessible to our review team.  
 
 Make sure `.env` is in `.gitignore` and your OpenAI API key is not committed.
 
