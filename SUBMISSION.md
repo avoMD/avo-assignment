@@ -49,8 +49,11 @@ We'll provide an OpenAI API key for the GPT calls.
    - Set the owner to **your own account** and the visibility to **Private**.
 2. **Complete the assignment** in your new repository (all items above).
 3. **Push your work to the `main` branch.**
-4. **Invite our reviewer as a collaborator.**
-   - In your repo: **Settings → Collaborators → Add people** → invite **`yunho-ju`**.
+4. **Invite our reviewers as collaborators.**
+   - In your repo: **Settings → Collaborators → Add people** → invite **all three** of the following:
+     - `texasroh`
+     - `yunho-ju`
+     - `lessquo`
 5. **Email us** once you're fully done so we can begin the review.
 
 > Please keep the repository **private**. Make sure `.env` is in `.gitignore` and your OpenAI API key is never committed.
