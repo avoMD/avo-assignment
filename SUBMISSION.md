@@ -44,13 +44,16 @@ We'll provide an OpenAI API key for the GPT calls.
 
 ## 5. How to Submit
 
-1. Complete the assignment in this repository (all items above)                                                                                          
-2. Push your work to the `main` branch                 
-3. Once your work is **fully done**, let us know via email                                                                                               
-> **Note:** This repository was created through GitHub Classroom and is already accessible to our review team.
-> This repository may be deleted after the review process is complete.
+1. **Create a private repository on your own GitHub account.**
+   - On this template repo page, click **"Use this template" → "Create a new repository"**.
+   - Set the owner to **your own account** and the visibility to **Private**.
+2. **Complete the assignment** in your new repository (all items above).
+3. **Push your work to the `main` branch.**
+4. **Invite our reviewer as a collaborator.**
+   - In your repo: **Settings → Collaborators → Add people** → invite **`yunho-ju`**.
+5. **Email us** once you're fully done so we can begin the review.
 
-Make sure `.env` is in `.gitignore` and your OpenAI API key is not committed.
+> Please keep the repository **private**. Make sure `.env` is in `.gitignore` and your OpenAI API key is never committed.
 
 ---
 
