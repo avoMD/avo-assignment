@@ -1,11 +1,20 @@
 # Avo Engineering Assignment
 
-## Glossary
+Thank you for taking the time to work on this. We genuinely appreciate it.
 
-**Prompt** — The instruction text sent to an AI model (e.g., OpenAI GPT-4).
-The model's output quality depends directly on how this text is written and structured.
+This assignment is based on a real problem we've faced building our product — so as you work through it, you'll get a feel for the kind of problems we think about every day. We hope it's interesting, not just as a test, but as a small window into what it's like to work here.
 
-Example: `"Summarize the following patient information in 3 bullet points: {patient_info}"`
+There's no trick. We're looking forward to hearing how you approached it.
+
+---
+
+**Expected time: 2–3 hours.** You're encouraged to use AI tools (Cursor, Claude, etc.) — just log how in `WRITEUP.md`.
+
+A starter Django project is in [`scaffold/`](scaffold/) — `docker compose up --build` should work out of the box. Build on top of it or start fresh if you prefer a different stack.
+
+Common time traps to avoid:
+- **Scope creep** — no UI required; define what you're *not* doing in `WRITEUP.md` early and move on
+- **Written deliverables** — bullet points are enough; we're not grading prose
 
 ---
 
@@ -52,4 +61,6 @@ Right now, every time they want to improve a prompt, test a new version, or roll
 
 ## What to Do
 
-See [SUBMISSION.md](SUBMISSION.md) for requirements and how to submit.
+Build a solution to the problem above. At minimum, an API that lets the content team manage prompts without touching code — but scope and design decisions are yours to make and justify.
+
+See [INSTRUCTIONS.md](INSTRUCTIONS.md) for deliverables and how to submit.
