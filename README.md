@@ -8,12 +8,18 @@ There's no trick. We're looking forward to hearing how you approached it.
 
 ---
 
-**Expected time: 2–3 hours.** You're encouraged to use AI tools (Cursor, Claude, etc.) — just log how in `WRITEUP.md`.
+**Expected time: 3 hours.** You're encouraged to use AI tools (Cursor, Claude, etc.) — just log how in [WRITEUP.md](WRITEUP.md).
 
-A starter Django project is in [`scaffold/`](scaffold/) — `docker compose up --build` should work out of the box. Build on top of it or start fresh if you prefer a different stack.
+To save your time, the following are **explicitly out of scope** — please don't build them:
+- **UI** — API only. No frontend, no templates.
+- **Tests** — not required and not evaluated.
+- **Swagger / API docs** — not required.
+- **Audit logging** — not required.
+
+What we're actually evaluating is how you think: the decisions you make, what you choose not to build, and where your judgment shaped the output. A clear [WRITEUP.md](WRITEUP.md) matters.
 
 Common time traps to avoid:
-- **Scope creep** — no UI required; define what you're *not* doing in `WRITEUP.md` early and move on
+- **Scope creep** — define what you're *not* doing in [WRITEUP.md](WRITEUP.md) early and move on
 - **Written deliverables** — bullet points are enough; we're not grading prose
 
 ---
@@ -64,3 +70,7 @@ Right now, every time they want to improve a prompt, test a new version, or roll
 Build a solution to the problem above. At minimum, an API that lets the content team manage prompts without touching code — but scope and design decisions are yours to make and justify.
 
 See [INSTRUCTIONS.md](INSTRUCTIONS.md) for deliverables and how to submit.
+
+---
+
+*v1.2*
