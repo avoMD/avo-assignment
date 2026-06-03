@@ -11,15 +11,17 @@ There's no trick. We're looking forward to hearing how you approached it.
 **Expected time: 3 hours.** You're encouraged to use AI tools (Cursor, Claude, etc.) — just log how in [WRITEUP.md](WRITEUP.md).
 
 To save your time, the following are **explicitly out of scope** — please don't build them:
+
 - **UI** — API only. No frontend, no templates.
-- **Tests** — not required and not evaluated.
 - **Swagger / API docs** — not required.
-- **Audit logging** — not required.
+- **Auth / RBAC** — no login, sessions, or permission enforcement.
+- **OpenAI key management** — assume a key exists or mock the LLM call.
 
 What we're actually evaluating is how you think: the decisions you make, what you choose not to build, and where your judgment shaped the output. A clear [WRITEUP.md](WRITEUP.md) matters.
 
 Common time traps to avoid:
-- **Scope creep** — define what you're *not* doing in [WRITEUP.md](WRITEUP.md) early and move on
+
+- **Scope creep** — define what you're _not_ doing in [WRITEUP.md](WRITEUP.md) early and move on
 - **Written deliverables** — bullet points are enough; we're not grading prose
 
 ---
@@ -73,4 +75,4 @@ See [INSTRUCTIONS.md](INSTRUCTIONS.md) for deliverables and how to submit.
 
 ---
 
-*v1.2*
+_v1.2_
