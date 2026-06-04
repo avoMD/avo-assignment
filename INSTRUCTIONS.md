@@ -17,8 +17,6 @@ At minimum, an API that lets the content team manage prompts without touching co
 - **Tech stack**: Python + Django (preferred). TypeScript + NestJS/Express is fine if you're not comfortable with Python.
 - `docker compose up --build` must be the single entry point and run without errors
 
-We'll provide an OpenAI API key for the GPT calls.
-
 ---
 
 ## 3. How to Submit
@@ -35,7 +33,7 @@ We'll provide an OpenAI API key for the GPT calls.
      - `hosun-a`
 4. **Email us** once you're done so we can begin the review.
 
-> Keep the repository **private**. Make sure `.env` is in `.gitignore` and your OpenAI API key is never committed.
+> Keep the repository **private**.
 
 ---
 
