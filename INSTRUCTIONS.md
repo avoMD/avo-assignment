@@ -4,13 +4,7 @@
 
 ## 1. Start with `WRITEUP.md`
 
-Before writing any code, fill out the Problem section of [`WRITEUP.md`](WRITEUP.md):
-
-- What problem are you solving?
-- What are you explicitly **not** solving, and why?
-- What assumptions did you make?
-
-Complete the rest of `WRITEUP.md` as you work.
+Before writing any code, fill out the **Problem** section of [WRITEUP.md](WRITEUP.md). Fill in **Decisions** and **AI Usage** as you work.
 
 ---
 
@@ -18,13 +12,10 @@ Complete the rest of `WRITEUP.md` as you work.
 
 Build a solution to the problem described in the README.
 
-At minimum, an API that lets the content team manage prompts without touching code. No UI required. Scope and design decisions are yours — define and justify them in `WRITEUP.md`.
+At minimum, an API that lets the content team manage prompts without touching code. Scope and design decisions are yours — define and justify them in [WRITEUP.md](WRITEUP.md).
 
 - **Tech stack**: Python + Django (preferred). TypeScript + NestJS/Express is fine if you're not comfortable with Python.
-- A starter Django project is in [`scaffold/`](scaffold/) — build on top of it, or replace it if you prefer a different stack
-- `docker compose up --build` must be the single entry point, run without errors, and all tests must pass
-
-We'll provide an OpenAI API key for the GPT calls.
+- `docker compose up --build` must be the single entry point and run without errors
 
 ---
 
@@ -42,7 +33,7 @@ We'll provide an OpenAI API key for the GPT calls.
      - `hosun-a`
 4. **Email us** once you're done so we can begin the review.
 
-> Keep the repository **private**. Make sure `.env` is in `.gitignore` and your OpenAI API key is never committed.
+> Keep the repository **private**.
 
 ---
 
