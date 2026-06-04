@@ -15,7 +15,7 @@ To save your time, the following are **explicitly out of scope** — please don'
 - **UI** — API only. No frontend, no templates.
 - **Swagger / API docs** — not required.
 - **Auth / RBAC** — no login, sessions, or permission enforcement.
-- **OpenAI key management** — assume a key exists or mock the LLM call.
+- **OpenAI key management** — we won't provide an API key; mock the LLM call or use a placeholder response.
 
 What we're actually evaluating is how you think: the decisions you make, what you choose not to build, and where your judgment shaped the output. A clear [WRITEUP.md](WRITEUP.md) matters.
 
