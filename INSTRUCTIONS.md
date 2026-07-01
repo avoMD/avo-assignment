@@ -26,10 +26,9 @@ At minimum, an API that lets the content team manage prompts without touching co
    - Set the owner to **your own account** and the visibility to **Private**.
 2. **Push your work to the `main` branch.**
 3. **Invite our reviewers as collaborators.**
-   - In your repo: **Settings → Collaborators → Add people** → invite all four:
-     - `texasroh`
+   - In your repo: **Settings → Collaborators → Add people** → invite:
+     - `hyuntnchoi`
      - `yunho-ju`
-     - `lessquo`
      - `hosun-a`
 4. **Email us** once you're done so we can begin the review.
 
